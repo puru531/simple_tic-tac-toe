@@ -1,0 +1,49 @@
+#main{
+	text-align: center;
+	font-family: Verdana, Geneva, Tahima, Sans-serif;
+}
+h1{
+	color: orangered;
+	font-size: 45px;
+}
+
+#box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9{
+	width: 65px;
+	height: 50px;
+	margin: auto;
+	border: 1px solid gray;
+	border-radius: 6px;
+	font-size: 30px;
+	text-align: center;
+}
+#start{
+	box-sizing: border-box;
+	width: 150px;
+	height: 40px;
+	border: 1px solid gray;
+	margin: auto;
+	background-color: lightgreen;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
+#reset{
+	box-sizing: border-box;
+	width: 95px;
+	height: 40px;
+	border: 1px solid gray;
+	margin: auto;
+	background-color: dodgerblue;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#message{
+	color: red;
+	font-size: 25px;
+}
+#instructions{
+	color: dodgerblue;
+	font-size: 17px;
+}

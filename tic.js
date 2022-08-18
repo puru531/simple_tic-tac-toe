@@ -36,7 +36,7 @@ function myfunc() {
 	}
 
 	// middle row
-	else if((box4=='x' || box4=='X') && (box2=='5' || box5=='X') && (box6=='x' || box6=='X')){
+	else if((box4=='x' || box4=='X') && (box5=='x' || box5=='X') && (box6=='x' || box6=='X')){
 		document.getElementById('message').innerHTML=player1 +" won!";
 		document.getElementById("box1").disabled = true;
 		document.getElementById("box2").disabled = true;
@@ -140,7 +140,7 @@ function myfunc() {
 	}
 
 	// middle row
-	else if((box4=='0') && (box2=='0') && (box6=='0')){
+	else if((box4=='0') && (box5=='0') && (box6=='0')){
 		document.getElementById('message').innerHTML=player2 + " won!";
 		document.getElementById("box1").disabled = true;
 		document.getElementById("box2").disabled = true;
